@@ -10,14 +10,14 @@
 
 ※演習環境はMicrosoft Azureの「Virtual Machine」サービスを使用しています。
 
-
+<br>
 
 ## 目標
 
 + タスク1：Azure Portalへサインインする
 + タスク2：演習環境にアクセスする
 
-
+<br>
 
 ## 予想時間: 10 分
 
@@ -39,7 +39,7 @@
 
     ![image00](./media/image00.BMP)
 
-    
+    <br>
 
 3. InPrivateまたはシークレットで開いたWebブラウザから以下にアクセスします。
 
@@ -47,7 +47,7 @@
 
     ![image01](./media/image01.BMP)
 
-    
+    <br>
 
 4. ユーザー名とパスワードを入力する画面が表示されます。
 
@@ -60,19 +60,19 @@
 
     <img src="./media/image02.BMP" alt="image02" style="zoom:50%;" />　<img src="./media/image03.BMP" alt="image03" style="zoom:50%;" />
 
-    
+    <br>
 
 5. 「サインインの状態を維持しますか?」と表示されます。「はい」をクリックします。
 
     <img src="./media/image04.BMP" alt="image04" style="zoom:50%;" />　
 
-    
+    <br>
 
 6. Azure Portalへサインインすることが出来ました。「Microsoft Azure へようこそ」と表示されます。「後で行う」をクリックします。
 
     ![image05](./media/image05.BMP)
 
-    
+    <br>
 
 #### タスク2：演習環境にアクセスする
 
@@ -80,7 +80,7 @@
 
     ![image06](./media/image06.BMP)
 
-    
+    <br>
 
 1. 使用可能な仮想マシンが1台表示されます。仮想マシン名をクリックします。
 
@@ -88,23 +88,23 @@
 
     ![image07](./media/image07.BMP)
 
-    
+    <br>
 
 1. 使用する仮想マシンが表示されます。画面内にある「接続」→「Bastionを介した接続」をクリックします。![image08](./media/image08.BMP)
 
-    
+    <br>
 
 1. Bastionの画面が表示されます。「接続設定」をクリックします。
 
     ![image09](./media/image09.BMP)
 
-    
+    <br>
 
 1. 「接続設定」では「キーボード言語」を「日本語」に選択します。
 
     ![image10](./media/image10.BMP)
 
-    
+    <br>
 
 1. 少し下にスクロールすると「認証の種類」が表示されます。「ユーザー名」と「VMパスワード」を以下の通りに入力し、「接続」をクリックします。
 
@@ -115,7 +115,7 @@
 
     ![image11](./media/image11.BMP)
 
-    
+    <br>
 
 1. Webブラウザで新しいタブが開き、Windows Serverの画面が表示されます。
 
@@ -123,7 +123,7 @@
 
     ![image13](./media/image13.BMP)
 
-    
+    <br>
 
 1. クリップボードの許可画面が画面左上に表示される場合があります。「許可」をクリックします。
 
@@ -135,7 +135,11 @@
 
     以降は講師の指示に従い、テキストの演習手順を実施してください。
 
+    <br>
 
+    <br>
+
+------
 
 **【参考】Microsoft Azureにご興味のある方向け**
 
@@ -145,7 +149,7 @@ Azureサービスの「Virtual Machine (仮想マシン)」を使用してクラ
 
 > Azure での仮想マシン： https://learn.microsoft.com/ja-jp/azure/virtual-machines/overview
 
-
+<br>
 
 この仮想マシンへアクセスする場合、Windowsではリモートデスクトップ接続を行います。
 
@@ -157,7 +161,7 @@ Azureサービスの「Virtual Machine (仮想マシン)」を使用してクラ
 
 > リモート管理の脅威：https://learn.microsoft.com/ja-jp/azure/security/fundamentals/management#remote-management-threats
 
-
+<br>
 
 そのため、RDPポートはファイヤーウォールなどによりブロックすることが一般的です。
 
@@ -165,7 +169,7 @@ Azureサービスの「Virtual Machine (仮想マシン)」を使用してクラ
 
 あるいは、社内ネットワークからデータの不正流出を防ぐために、ネットワーク自体でRDPポートを遮断(ファイヤーウォールなど)することがあります。
 
-
+<br>
 
 その場合、メンテナンスや操作などにおいて、RDP接続が出来ない状態になります。
 
@@ -177,7 +181,7 @@ Azureサービスの「Virtual Machine (仮想マシン)」を使用してクラ
 
 ![architecture](./media/architecture.png)
 
-このサービスは、Bastionが踏み台コンピュータとなります。
+<br>このサービスは、Bastionが踏み台コンピュータとなります。
 
 インターネット上に仮想マシンのグローバルIPアドレスを公開することなく且つ、Webブラウザ経由でセキュアに通信を行うことが可能です。
 
