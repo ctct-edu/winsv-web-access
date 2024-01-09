@@ -15,8 +15,7 @@
 ## 目標
 
 + タスク1：Azure Portalへサインインする
-+ タスク2：演習環境で使用する仮想マシンを見つける
-+ タスク3：演習環境へアクセスする
++ タスク2：演習環境にアクセスする
 
 
 
@@ -28,8 +27,6 @@
 
 2. 表示したWebブラウザを「InPrivate ウィンドウ」または「シークレットウィンドウ」で表示します。
 
-    ※キャプチャはMicrosoft Edgeを使用しています。
-
     > 参考 各WebブラウザのInPrivateまたはシークレットの開き方は公式サイトを参照してください。
     >
     > | Webブラウザ     | 公式サイト                                                   |
@@ -38,13 +35,17 @@
     > | Google Chrome   | https://support.google.com/chrome/answer/95464?hl=ja&co=GENIE.Platform%3DDesktop |
     > | Mozilla Firefox | https://support.mozilla.org/ja/kb/private-browsing-use-firefox-without-history |
 
+    ※キャプチャはMicrosoft Edgeを使用しています。
+
+    ![image00](.\media\image00.BMP)
+
     
 
 3. InPrivateまたはシークレットで開いたWebブラウザから以下にアクセスします。
 
     アクセス先URL：https://portal.azure.com
 
-    ![image01](C:\Users\otokita\Documents\winsv-web-access\media\image01.BMP)
+    ![image01](./media/image01.BMP)
 
     
 
@@ -52,28 +53,24 @@
 
     講師からZoomチャットなどで取得したユーザー名とパスワードを使用してサインインします。
 
-    | 項目                  | 値                                                           |
-    | --------------------- | ------------------------------------------------------------ |
-    | Microsoftアカウント名 | `WSFSStudent##@ctctedu.onmicrosoft.com`<br />※##の部分には01～99の数字になります。<br />　講師から提示された番号に置き換え、入力してください。 |
-    | パスワード            | Pa55w.rd1234                                                 |
+    | 項目                | 値                                                           |
+    | ------------------- | ------------------------------------------------------------ |
+    | メール、電話、Skype | `WSFSStudent##@ctctedu.onmicrosoft.com`<br />※##の部分には01～99の数字になります。<br />　講師から提示された番号に置き換え、入力してください。 |
+    | パスワード          | Pa55w.rd1234                                                 |
 
-    <img src="C:\Users\otokita\Documents\winsv-web-access\media\image02.BMP" alt="image02" style="zoom:50%;" />　<img src="C:\Users\otokita\Documents\winsv-web-access\media\image03.BMP" alt="image03" style="zoom:50%;" />
+    <img src="./media/image02.BMP" alt="image02" style="zoom:50%;" />　<img src="./media/image03.BMP" alt="image03" style="zoom:50%;" />
 
     
 
 5. 「サインインの状態を維持しますか?」と表示されます。「はい」をクリックします。
 
-    <img src="C:\Users\otokita\Documents\winsv-web-access\media\image04.BMP" alt="image04" style="zoom:50%;" />　
+    <img src="./media/image04.BMP" alt="image04" style="zoom:50%;" />　
 
     
 
-6. Azure Portalへサインインすることが出来ました。
+6. Azure Portalへサインインすることが出来ました。「Microsoft Azure へようこそ」と表示されます。「後で行う」をクリックします。
 
-    
-
-7. 「Microsoft Azure へようこそ」と表示されます。「後で行う」をクリックします。
-
-    ![image05](C:\Users\otokita\Documents\winsv-web-access\media\image05.BMP)
+    ![image05](./media/image05.BMP)
 
     
 
@@ -81,7 +78,7 @@
 
 1. 画面内にある「Virtual Machine」のアイコンをクリックします。
 
-    ![image06](C:\Users\otokita\Documents\winsv-web-access\media\image06.BMP)
+    ![image06](./media/image06.BMP)
 
     
 
@@ -89,23 +86,23 @@
 
     > ※キャプチャはWSFSVM00となっていますが、01～99までの数字が表示されます。
 
-    ![image07](C:\Users\otokita\Documents\winsv-web-access\media\image07.BMP)
+    ![image07](./media/image07.BMP)
 
     
 
-1. 使用する仮想マシンが表示されます。画面内にある「接続」→「Bastionを介した接続」をクリックします。![image08](C:\Users\otokita\Documents\winsv-web-access\media\image08.BMP)
+1. 使用する仮想マシンが表示されます。画面内にある「接続」→「Bastionを介した接続」をクリックします。![image08](./media/image08.BMP)
 
     
 
 1. Bastionの画面が表示されます。「接続設定」をクリックします。
 
-    ![image09](C:\Users\otokita\Documents\winsv-web-access\media\image09.BMP)
+    ![image09](./media/image09.BMP)
 
     
 
 1. 「接続設定」では「キーボード言語」を「日本語」に選択します。
 
-    ![image10](C:\Users\otokita\Documents\winsv-web-access\media\image10.BMP)
+    ![image10](./media/image10.BMP)
 
     
 
@@ -116,7 +113,7 @@
     | ユーザー名   | `ctct`         |
     | VMパスワード | `Pa55w.rd1234` |
 
-    ![image11](C:\Users\otokita\Documents\winsv-web-access\media\image11.BMP)
+    ![image11](./media/image11.BMP)
 
     
 
@@ -124,13 +121,13 @@
 
     > 注意：**ポップアップブロックで表示が失敗する場合があります。**ポップアップブロックを許可してください。
 
-    ![image13](C:\Users\otokita\Documents\winsv-web-access\media\image13.BMP)
+    ![image13](./media/image13.BMP)
 
     
 
 1. クリップボードの許可画面が画面左上に表示される場合があります。「許可」をクリックします。
 
-    <img src="C:\Users\otokita\Documents\winsv-web-access\media\image12.BMP" alt="image12" style="zoom:150%;" />　
+    <img src="./media/image12.BMP" alt="image12" style="zoom:150%;" />　
 
     
 
@@ -164,7 +161,7 @@ Azureサービスの「Virtual Machine (仮想マシン)」を使用してクラ
 
 そのため、RDPポートはファイヤーウォールなどによりブロックすることが一般的です。
 
-※この演習環境においてはRDPポートは解放しています。
+> この演習環境においてはRDPポートは解放しています。
 
 あるいは、社内ネットワークからデータの不正流出を防ぐために、ネットワーク自体でRDPポートを遮断(ファイヤーウォールなど)することがあります。
 
@@ -178,7 +175,7 @@ Azureサービスの「Virtual Machine (仮想マシン)」を使用してクラ
 
 > Azure Bastion とは：https://learn.microsoft.com/ja-jp/azure/bastion/bastion-overview
 
-![architecture](C:\Users\otokita\Documents\winsv-web-access\media\architecture.png)
+![architecture](./media/architecture.png)
 
 このサービスは、Bastionが踏み台コンピュータとなります。
 
