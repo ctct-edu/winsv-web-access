@@ -37,7 +37,7 @@
 
     ※キャプチャはMicrosoft Edgeを使用しています。
 
-    ![image00](.\media\image00.BMP)
+    ![image00](./media/image00.BMP)
 
     
 
