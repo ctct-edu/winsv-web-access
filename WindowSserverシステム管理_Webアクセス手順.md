@@ -25,6 +25,8 @@
 
 1. Webブラウザを表示します。使用可能なWebブラウザは「Microsoft Edge」「Google Chrome」「Mozilla Firefox」が利用可能です。
 
+    <br>
+
 2. 表示したWebブラウザを「InPrivate ウィンドウ」または「シークレットウィンドウ」で表示します。
 
     > 参考 各WebブラウザのInPrivateまたはシークレットの開き方は公式サイトを参照してください。
