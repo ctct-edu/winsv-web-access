@@ -57,7 +57,7 @@
 
     | 項目                | 値                                                           |
     | ------------------- | ------------------------------------------------------------ |
-    | メール、電話、Skype | `WSFSStudent###@ctctedu.onmicrosoft.com`<br />※##の部分には001～999の数字になります。<br />　講師から提示された番号に置き換え、入力してください。 |
+    | メール、電話、Skype | `WSFSStudent##@ctctedu.onmicrosoft.com`<br />※##の部分には01～99の数字になります。<br />　講師から提示された番号に置き換え、入力してください。 |
     | パスワード          | Pa55w.rd1234                                                 |
 
     <img src="./media/image02.BMP" alt="image02" style="zoom:50%;" />　<img src="./media/image03.BMP" alt="image03" style="zoom:50%;" />
