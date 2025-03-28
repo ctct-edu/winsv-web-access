@@ -8,7 +8,7 @@
 
 講師より入手したアカウントを使用して、演習環境へアクセスしてください。
 
-※演習環境はMicrosoft Azureの「Virtual Machine」サービスを使用しています。
+※演習環境はMicrosoft Azureの「Virtual Machine」サービスを使用しています
 
 <br>
 
